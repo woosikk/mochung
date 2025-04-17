@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Wedding Invitation.">
+
+  <meta name="color-scheme" content="light only"/>
+	<meta name="supported-color-schemes" content="light"/>
+
+  <meta property="og:title" content="우식❤️혜원 결혼합니다">
+  <meta property="og:description" content="모바일 청첩장">
+  <meta property="og:image" content="https://woosikk.github.io/mochung/assets/images/1.jpeg">
+  <meta property="og:url" content="https://woosikk.github.io/mochung/">
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="mochung">
+  <link rel="apple-touch-icon" href="favicons/apple-touch-icon.png">
+
+  <!-- Favicon -->
+  <link rel="icon" sizes="32x32" type="image/png" href="favicons/favicon-32x32.png"/>
+  <link rel="icon" sizes="16x16" type="image/png" href="favicons/favicon-16x16.png"/>
+
+  <title>우식❤️혜원 결혼합니다</title>
+  <link rel="manifest" href="manifest.json">
+
+    <style>
+    .lds-heart {
+      position: absolute;
+      top: 45%;
+      left: 45%;
+      width: 80px;
+      height: 80px;
+      transform: rotate(45deg);
+      transform-origin: 40px 40px;
+    }
+    .lds-heart div {
+      top: 32px;
+      left: 32px;
+      position: absolute;
+      width: 32px;
+      height: 32px;
+      background: #ff0000;
+      animation: lds-heart 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+    .lds-heart div:after,
+    .lds-heart div:before {
+      content: " ";
+      position: absolute;
+      display: block;
+      width: 32px;
+      height: 32px;
+      background: #ff0000;
+    }
+    .lds-heart div:before {
+      left: -24px;
+      border-radius: 50% 0 0 50%;
+    }
+    .lds-heart div:after {
+      top: -24px;
+      border-radius: 50% 50% 0 0;
+    }
+    @keyframes lds-heart {
+      0% {
+        transform: scale(0.95);
+      }
+      5% {
+        transform: scale(1.1);
+      }
+      39% {
+        transform: scale(0.85);
+      }
+      45% {
+        transform: scale(1);
+      }
+      60% {
+        transform: scale(0.95);
+      }
+      100% {
+        transform: scale(0.9);
+      }
+    }
+  </style>
+
+</head>
+<body>
+  <div class="lds-heart">
+    <div></div>
+  </div>
+
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
