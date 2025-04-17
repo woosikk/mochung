@@ -141,39 +141,6 @@ class Invitation extends StatelessWidget {
       margin: const EdgeInsetsDirectional.all(20.0),
       child: Column (
         children: [
-          /*
-          Container (
-            height: 150,
-            width: 500.0,
-            child: Image.asset('assets/images/wizard.png', fit: BoxFit.contain,),
-          ),
-          
-          const SizedBox(height: 40),
-          
-          const AutoSizeText(
-            '소중하고 감사한 당신을 초대합니다.',
-            style: TextStyle(
-              color: Color.fromRGBO(41, 82, 56, 100),
-              fontSize: 18,
-              fontWeight: FontWeight.w600)
-          ),
-
-          const SizedBox(height: 40),
-          const AutoSizeText(
-            '여기에 인사말 추가.',
-            textAlign: TextAlign.center,
-            style: TextStyle(
-              fontSize: 15,
-              height: 2,
-              fontWeight: FontWeight.w600),
-          ),
-
-          const SizedBox(height: 50),
-          _buildName('강세순', '한서윤', '장남', '강우식'),
-          const SizedBox(height: 10),
-          _buildName('한기관', '김은희', '장녀', '한혜원'),
-          const SizedBox(height: 50),
-          */
           Container (
             height: 350.0,
             child: Image.asset(
