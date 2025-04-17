@@ -1,0 +1,36 @@
+name: Build and Deploy Flutter Web App to GitHub Pages 
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: Build and Deploy
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Set GitHub repo
+        uses: actions/checkout@v4
+      - name: Set Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: "3.29.3"
+          channel: 'stable'
+      - name: Clean the cached build and pub
+        run: flutter clean
+      - name: Get new pub
+        run: flutter pub get
+      - name: Config Flutter Web App
+        run: flutter config --enable-web
+      - name: Build Flutter Web
+        run: flutter build web --base-href "/${{ github.event.repository.name }}/"
+      - name: Deploy GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.STATIC_DEPLOY_KEY }}
+          publish_branch: web
+          publish_dir: ./build/web
