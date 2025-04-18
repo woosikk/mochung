@@ -41,9 +41,9 @@ class _MyHomePageState extends State<MyHomePage> {
             children: [
               Welcome(),
               Invitation(),
-              const SizedBox(height: 20),
+              const SizedBox(height: 10),
               Guide(),
-              const SizedBox(height: 20),
+              const SizedBox(height: 10),
               Map(),
               const SizedBox(height: 20),
               Agenda(),

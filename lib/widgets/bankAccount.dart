@@ -64,13 +64,13 @@ class BankAccount extends StatelessWidget {
             backgroundColor: Colors.white,
             shape: Border.all(color: Colors.transparent),
             children: <Widget>[
-              _buildExpansionItem(context, '신한', 'TBD', '강세순'),
+              _buildExpansionItem(context, '신한', '110-011-227470', '강세순'),
               /*
               const SizedBox(height: 10),
               _buildExpansionItem(context, '대구', 'TBD', '한서윤'),
               */
               const SizedBox(height: 10),
-              _buildExpansionItem(context, '우리', 'TBD', '강우식'),
+              _buildExpansionItem(context, '우리', '1002-343-669814', '강우식'),
             ]
           ),
           /*
