@@ -50,7 +50,7 @@ Widget _buildContactInfo(String who, name, number, Color color) {
         flex: 2,
         child: Align(
           alignment: Alignment.center,
-          child: Text('$name', style: TextStyle(color: Colors.grey)),
+          child: Text('$name', style: TextStyle(color: Colors.grey[700])),
         ),
       ),
       Expanded(

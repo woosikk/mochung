@@ -65,34 +65,10 @@ class BankAccount extends StatelessWidget {
             shape: Border.all(color: Colors.transparent),
             children: <Widget>[
               _buildExpansionItem(context, '신한', '110-011-227470', '강세순'),
-              /*
-              const SizedBox(height: 10),
-              _buildExpansionItem(context, '대구', 'TBD', '한서윤'),
-              */
               const SizedBox(height: 10),
               _buildExpansionItem(context, '우리', '1002-343-669814', '강우식'),
             ]
           ),
-          /*
-          ExpansionTile(
-            title: Center(
-              child: Text(
-                '       신부측 마음 전하실 곳',
-                style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.w600, color: indiPinkColor),
-              ),
-            ),
-            initiallyExpanded: false,
-            backgroundColor: Colors.white,
-            shape: Border.all(color: Colors.transparent),
-            children: <Widget>[
-              _buildExpansionItem(context, '기업', 'TBD', '한기관'),
-              const SizedBox(height: 10),
-              _buildExpansionItem(context, '우리', 'TBD', '김은희'),
-              const SizedBox(height: 10),
-              _buildExpansionItem(context, '우리', 'TBD', '한혜원'),
-            ]
-          ),
-          */
         ],
       ),
     );

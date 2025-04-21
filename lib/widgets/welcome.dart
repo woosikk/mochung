@@ -84,7 +84,7 @@ Widget _buildEventInfo() {
     children: [
       /*
       Text (
-        '강우식 | 한혜원',
+        '강우식 & 한혜원',
         textAlign: TextAlign.center,
         style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
       ),
@@ -95,7 +95,7 @@ Widget _buildEventInfo() {
         style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.w600, height: 2),
       ),
       Text (
-        '레이저앤피직스 본사',
+        '레이저앤피직스 레이저홀',
         textAlign: TextAlign.center,
         style: TextStyle(fontSize: 18.0, fontWeight: FontWeight.w600, height: 2),
       ),

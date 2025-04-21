@@ -51,7 +51,6 @@ class _MyHomePageState extends State<MyHomePage> {
               Gallery(),
               const SizedBox(height: 20),
               BankAccount(),
-              //const SizedBox(height: 20),
               DevelopedBy(),
             ],
           ),

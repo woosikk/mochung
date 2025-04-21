@@ -34,7 +34,6 @@ class MyApp extends StatelessWidget {
         labelSmall: TextStyle(color: const Color(0xFF000000)), // 라벨 (검은색)
       ),
       ),
-      // home: const MyHomePage(title: 'Flutter Demo Home Page'),
       home: Container(
         width: 500.0,
         child: MyHomePage(),

@@ -11,7 +11,6 @@ class Guide extends StatelessWidget {
       ? await launch(_googleFormUrl)
       : throw 'Could not launch $_googleFormUrl';
 
-
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -29,9 +28,8 @@ class Guide extends StatelessWidget {
           SizedBox(height: 5),
             ElevatedButton(
               onPressed: () => _launchURL(),
-              child: Text('RSVP'),
+              child: Text('          RSVP          '),
             )
-
         ],
       )
     );
